@@ -10,4 +10,7 @@ const search = (start, end) => {
     });
 };
 
-module.exports = {search};
+const getRandomName = results => {
+};
+
+module.exports = {search, getRandomName};
