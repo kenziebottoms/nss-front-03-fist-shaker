@@ -25,7 +25,7 @@ const fuck = (fuckee) => {
         })
         .done(results => {
             const fuckTemplate = require("../../templates/fucktron.hbs");
-            $("#fuck").html(fuckTemplate(results));
+            $("#fuck").append(fuckTemplate(results));
             resolve(results);
         })
         .fail(error => reject(error));
