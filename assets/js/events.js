@@ -9,7 +9,7 @@ const activateDates = () => {
         let date2 = $("#date2").val();
         neows.search(date1, date2).then(response => {
             let date = response.near_earth_objects[date1];
-            date.forEach(object => {
+            date.slice(0,4).forEach(object => {
                 foaas.fuck(object.name);
             });
         });

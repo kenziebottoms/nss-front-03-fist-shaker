@@ -12,4 +12,11 @@ Practice jQuery and Promises and optionally Handlebars
 
 - [ ] Only tell those asteroids that are "potentially hazardous" to fuck off.
 - [ ] Use different messages from foaas for the different asteroids.
-- [ ] Use Handlebars to print your three messages to the DOM.
+- [x] Use Handlebars to print your three messages to the DOM.
+
+### Should do:
+
+- [ ] Person-friendly error if dates aren't entered.
+- [ ] Person-friendly error if dates are more than 7 days apart.
+- [ ] Set dates to today.
+- [ ] Set second date to first date upon first date change.
