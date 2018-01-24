@@ -1,5 +1,22 @@
 # Shake your fist at the sky
 
+![](https://img.shields.io/badge/data-api-yellow.svg)
+![](https://img.shields.io/badge/template-handlebars-orange.svg)
+![](https://img.shields.io/badge/js-jquery-blue.svg)
+![](https://img.shields.io/badge/modularity-browserify-ff69b4.svg)
+![](https://img.shields.io/badge/mvp-working-brightgreen.svg)
+![](https://img.shields.io/badge/bonus-none-lightgrey.svg)
+
+## Install locally
+
+```
+> git clone git@github.com:kenziebottoms/nss-front-03-strfkr.git
+> npm install
+> grunt
+```
+
+## Requirements
+
 Practice jQuery and Promises and optionally Handlebars
  
 - [x] Accept two dates from the user (year, month, day) as a search parameter.
