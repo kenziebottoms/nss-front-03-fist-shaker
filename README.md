@@ -7,15 +7,17 @@
 ![](https://img.shields.io/badge/modularity-browserify-yellow.svg)
 ![](https://img.shields.io/badge/css_preprocessor-scss-ff69b4.svg)
 ![](https://img.shields.io/badge/css_framework-bootstrap-5F2C7C.svg)
-![](https://img.shields.io/badge/mvp-working-brightgreen.svg)
+![](https://img.shields.io/badge/mvp-broken-red.svg)
 ![](https://img.shields.io/badge/bonus-none-lightgrey.svg)
 
-## Install locally
+## Run locally
 
 ```
 git clone git@github.com:kenziebottoms/nss-front-03-strfkr.git
+cd nss-front-03-strfkr
 npm install
 grunt
+hs -o
 ```
 
 ## Requirements
